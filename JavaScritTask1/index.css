@@ -1,0 +1,31 @@
+body {
+  display: flex;
+  /* background-color: green; */
+  justify-content: center;
+  align-items: center;
+  height: 100dvh;
+  width: 100dvw;
+  background: linear-gradient(90deg, #253898, #5737d6);
+  color: white;
+}
+.status {
+  text-align: center;
+  padding: 10px 50px;
+  border-radius: 100px;
+  animation: float 1000ms infinite 300ms;
+}
+.status-online {
+  background: linear-gradient(90deg, #00bc40, #00ac61);
+}
+.status-offline {
+  background: linear-gradient(90deg, #ff4331, #d31a50);
+}
+
+@keyframes float {
+  from {
+    box-shadow: 5px 5px 20px gray;
+  }
+  to {
+    box-shadow: 0px 0px 0px gray;
+  }
+}

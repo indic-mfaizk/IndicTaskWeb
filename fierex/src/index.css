@@ -1,0 +1,9 @@
+@font-face {
+  font-family: "goodtimes"; /*Can be any text*/
+  src: local("GoodTimesW00Bold"),
+    url("./fonts/GoodTimesW00Bold.ttf") format("truetype");
+}
+
+*::-webkit-scrollbar {
+  display: none;
+}

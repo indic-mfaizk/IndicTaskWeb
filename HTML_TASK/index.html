@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pay2P Home</title>
+    <link rel="stylesheet" href="index.css" />
+    <script src="./index.js" defer></script>
+
+    <script
+      src="https://kit.fontawesome.com/e3d3128bcc.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <nav class="phone-nav" style="transform: translateY(-800px)">
+      <ul class="phone-nav-list">
+        <li class="phone-nav-list-item">Home</li>
+        <li class="phone-nav-list-item">Features</li>
+        <li class="phone-nav-list-item">Product</li>
+        <li class="phone-nav-list-item">Contact</li>
+        <div class="phone-nav-btn-container">
+          <button class="login">Login</button>
+          <button class="signup">Sign Up</button>
+        </div>
+      </ul>
+    </nav>
+
+    <nav class="nav">
+      <img src="./asset/logo.png" alt="" class="logo" />
+      <button class="hamburger" onclick="navHandler()">
+        <i class="fa-solid fa-bars fa-2x"></i>
+      </button>
+      <div class="btn-container">
+        <ul class="nav-item-container">
+          <li class="nav-item">Home</li>
+          <li class="nav-item">Feature</li>
+          <li class="nav-item">Product</li>
+          <li class="nav-item">Contact</li>
+        </ul>
+        <button class="login">Login</button>
+        <button class="signup">Sign Up</button>
+      </div>
+    </nav>
+    <!-- hero-section-start -->
+    <section class="hero-container">
+      <!-- left-section-start -->
+      <div class="hero-left-section">
+        <h1 class="hero-title">
+          Buy, Sell or Exchange your Cryptocurrency with most secure plateform
+        </h1>
+        <h5 class="hero-subtitle">
+          Lorem ipsum dolor sit amet consectetur. Vehicula elementum ultrices
+          dictum sit ornare diam. Dictum mattis iaculis in amet orci. Senectus
+          sed scelerisque.
+        </h5>
+        <button class="hero-btn">Get Started</button>
+        <div class="hero-card-container">
+          <!-- card-start-here -->
+          <div class="hero-card">
+            <img src="./asset/card-bg.svg" alt="" class="hero-card-bg-img1" />
+            <h4 class="hero-card-title">25k</h4>
+            <p class="hero-card-subtitle">
+              Happy <br />
+              Customer
+            </p>
+          </div>
+          <!-- card-end-here -->
+          <!-- card-start-here -->
+          <div class="hero-card">
+            <img src="./asset/card-bg.svg" alt="" class="hero-card-bg-img2" />
+            <h4 class="hero-card-title">25k</h4>
+            <p class="hero-card-subtitle">
+              Happy <br />
+              Customer
+            </p>
+          </div>
+          <!-- card-end-here -->
+
+          <!-- card-start-here -->
+          <div class="hero-card">
+            <img src="./asset/card-bg.svg" alt="" class="hero-card-bg-img3" />
+            <h4 class="hero-card-title">25k</h4>
+            <p class="hero-card-subtitle">
+              Happy <br />
+              Customer
+            </p>
+          </div>
+          <!-- card-end-here -->
+        </div>
+      </div>
+      <!-- left-section-end -->
+      <!-- right-section-start-here -->
+      <img src="./asset/hero.png" alt="" class="hero-section-img" />
+      <!-- right-section-end-here -->
+    </section>
+    <!-- hero-section-end -->
+    <!-- market-trend-section-start -->
+    <h1 class="market-section-heading">Market Trend</h1>
+
+    <section class="market-section">
+      <!-- card-start-here -->
+      <div class="card-container">
+        <div class="top-card-container">
+          <div class="left-top-card-container">
+            <img src="./asset/btc.png" alt="" class="coin-img" />
+            <div class="coin-f-container">
+              <h2 class="coin-name">BTC</h2>
+              <h3 class="coin-f-name">BITCOIN</h3>
+            </div>
+          </div>
+          <div class="arrow-container">
+            <img src="./asset/arrow.png" alt="" class="arrow" />
+          </div>
+        </div>
+        <div class="card-divider"></div>
+        <div class="bottom-card-container">
+          <div class="titile-container">
+            <h1 class="title">$56,623.54</h1>
+            <h1 class="subtitle">+1.41%</h1>
+          </div>
+          <img src="./asset/btc-wave.png" alt="" class="wave" />
+        </div>
+      </div>
+      <!-- card-end-here -->
+      <!-- card-start-here -->
+      <div class="card-container">
+        <div class="top-card-container">
+          <div class="left-top-card-container">
+            <img src="./asset/eth.png" alt="" class="coin-img" />
+            <div class="coin-f-container">
+              <h2 class="coin-name">ETH</h2>
+              <h3 class="coin-f-name">ETHERIUM</h3>
+            </div>
+          </div>
+          <div class="arrow-container">
+            <img src="./asset/arrow.png" alt="" class="arrow" />
+          </div>
+        </div>
+        <div class="card-divider"></div>
+        <div class="bottom-card-container">
+          <div class="titile-container">
+            <h1 class="title">$106,623.54</h1>
+            <h1 class="subtitle">+1.41%</h1>
+          </div>
+          <img src="./asset/btc-wave.png" alt="" class="wave" />
+        </div>
+      </div>
+      <!-- card-end-here -->
+      <!-- card-start-here -->
+      <div class="card-container">
+        <div class="top-card-container">
+          <div class="left-top-card-container">
+            <img src="./asset/bnb.png" alt="" class="coin-img" />
+            <div class="coin-f-container">
+              <h2 class="coin-name">BNB</h2>
+              <h3 class="coin-f-name">BINANCE</h3>
+            </div>
+          </div>
+          <div class="arrow-container">
+            <img src="./asset/arrow.png" alt="" class="arrow" />
+          </div>
+        </div>
+        <div class="card-divider"></div>
+        <div class="bottom-card-container">
+          <div class="titile-container">
+            <h1 class="title">$56,623.54</h1>
+            <h1 class="subtitle">+1.41%</h1>
+          </div>
+          <img src="./asset/bnb-wave.png" alt="" class="wave" />
+        </div>
+      </div>
+      <!-- card-end-here -->
+      <!-- card-start-here -->
+      <div class="card-container">
+        <div class="top-card-container">
+          <div class="left-top-card-container">
+            <img src="./asset/btc.png" alt="" class="coin-img" />
+            <div class="coin-f-container">
+              <h2 class="coin-name">BTC</h2>
+              <h3 class="coin-f-name">BITCOIN</h3>
+            </div>
+          </div>
+          <div class="arrow-container">
+            <img src="./asset/arrow.png" alt="" class="arrow" />
+          </div>
+        </div>
+        <div class="card-divider"></div>
+        <div class="bottom-card-container">
+          <div class="titile-container">
+            <h1 class="title">$56,623.54</h1>
+            <h1 class="subtitle">+1.41%</h1>
+          </div>
+          <img src="./asset/btc-wave.png" alt="" class="wave" />
+        </div>
+      </div>
+      <!-- card-end-here -->
+    </section>
+    <!-- market-trend-section-end -->
+    <!-- market-update-section-start -->
+    <h1 class="market-update-heading">Market Update</h1>
+    <section class="market-update-container">
+      <div class="market-search-container">
+        <img src="./asset/search.png" alt="" class="search-img" />
+        <input
+          type="text"
+          name="search"
+          id=""
+          placeholder="Search Coin"
+          class="market-search-input"
+        />
+      </div>
+      <div class="table-container">
+        <table class="market-update-table">
+          <tr class="table-heading">
+            <th class="table-heading-title">NO</th>
+            <th class="table-heading-title">NAME</th>
+            <th class="table-heading-title">LAST PRICE</th>
+            <th class="table-heading-title">CHANGE</th>
+            <th class="table-heading-title">MARKET STATUS</th>
+          </tr>
+          <tr class="table-row">
+            <td class="table-data">1</td>
+            <td class="table-data">
+              <div class="table-data-image-container">
+                <img src="./asset/btc.png" alt="" class="table-data-img" />
+                <h6 class="table-data-coin-name">Bitcoin</h6>
+                <div class="vDivider"></div>
+                <h6 class="table-data-coin-sname">BTC</h6>
+              </div>
+            </td>
+            <td class="table-data">$56,632.50</td>
+            <td class="table-data">1.41%</td>
+            <td class="table-data">
+              <img src="./asset/btc-wave.png" alt="" />
+            </td>
+          </tr>
+          <tr class="table-row">
+            <td class="table-data">2</td>
+            <td class="table-data">
+              <div class="table-data-image-container">
+                <img src="./asset/eth.png" alt="" class="table-data-img" />
+                <h6 class="table-data-coin-name">Ethereum</h6>
+                <div class="vDivider"></div>
+                <h6 class="table-data-coin-sname">ETH</h6>
+              </div>
+            </td>
+            <td class="table-data">$56,632.50</td>
+            <td class="table-data">1.41%</td>
+            <td class="table-data">
+              <img src="./asset/btc-wave.png" alt="" />
+            </td>
+          </tr>
+          <tr class="table-row">
+            <td class="table-data">3</td>
+            <td class="table-data">
+              <div class="table-data-image-container">
+                <img src="./asset/bnb.png" alt="" class="table-data-img" />
+                <h6 class="table-data-coin-name">Binance</h6>
+                <div class="vDivider"></div>
+                <h6 class="table-data-coin-sname">BNB</h6>
+              </div>
+            </td>
+            <td class="table-data">$5,632.50</td>
+            <td class="table-data">1.41%</td>
+            <td class="table-data">
+              <img src="./asset/btc-wave.png" alt="" />
+            </td>
+          </tr>
+          <tr class="table-row">
+            <td class="table-data">4</td>
+            <td class="table-data">
+              <div class="table-data-image-container">
+                <img src="./asset/usdt.png" alt="" class="table-data-img" />
+                <h6 class="table-data-coin-name">Tether</h6>
+                <div class="vDivider"></div>
+                <h6 class="table-data-coin-sname">USDT</h6>
+              </div>
+            </td>
+            <td class="table-data">$56,2.50</td>
+            <td class="table-data">0.41%</td>
+            <td class="table-data">
+              <img src="./asset/btc-wave.png" alt="" />
+            </td>
+          </tr>
+          <tr class="table-row">
+            <td class="table-data">5</td>
+            <td class="table-data">
+              <div class="table-data-image-container">
+                <img src="./asset/btc.png" alt="" class="table-data-img" />
+                <h6 class="table-data-coin-name">Solana</h6>
+                <div class="vDivider"></div>
+                <h6 class="table-data-coin-sname">SQL</h6>
+              </div>
+            </td>
+            <td class="table-data">$632.50</td>
+            <td class="table-data">3.41%</td>
+            <td class="table-data">
+              <img src="./asset/usdt-wave.png" alt="" />
+            </td>
+          </tr>
+          <tr class="table-row">
+            <td class="table-data">6</td>
+            <td class="table-data">
+              <div class="table-data-image-container">
+                <img src="./asset/btc.png" alt="" class="table-data-img" />
+                <h6 class="table-data-coin-name">XRP</h6>
+                <div class="vDivider"></div>
+                <h6 class="table-data-coin-sname">XRP</h6>
+              </div>
+            </td>
+            <td class="table-data">$32.50</td>
+            <td class="table-data">0.41%</td>
+            <td class="table-data">
+              <img src="./asset/btc-wave.png" alt="" />
+            </td>
+          </tr>
+          <tr class="table-row">
+            <td class="table-data">7</td>
+            <td class="table-data">
+              <div class="table-data-image-container">
+                <img src="./asset/usdt.png" alt="" class="table-data-img" />
+                <h6 class="table-data-coin-name">USD Coin</h6>
+                <div class="vDivider"></div>
+                <h6 class="table-data-coin-sname">USDC</h6>
+              </div>
+            </td>
+            <td class="table-data">$2.50</td>
+            <td class="table-data">1.41%</td>
+            <td class="table-data">
+              <img src="./asset/bnb-wave.png" alt="" />
+            </td>
+          </tr>
+        </table>
+      </div>
+    </section>
+    <!-- market-update-section-end -->
+    <!-- perform-section-start -->
+    <h1 class="performance-heading">
+      We are a plaform with the most <br />
+      completed features
+    </h1>
+    <section class="performance-container">
+      <!-- card-start -->
+      <div class="perf-card-container">
+        <img src="./asset/safety.png" class="perf-card-img" alt="" />
+        <h1 class="perf-card-title">Guarenteed Safety</h1>
+        <h4 class="perf-card-subtitle">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur
+          velit amet aliquid repudiandae perferendis assumenda quae cupiditate
+          doloremque soluta. Quasi!
+        </h4>
+      </div>
+      <!-- card-end -->
+      <!-- card-start -->
+      <div class="perf-card-container">
+        <img src="./asset/money.png" class="perf-card-img" alt="" />
+        <h1 class="perf-card-title">Guarenteed Safety</h1>
+        <h4 class="perf-card-subtitle">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur
+          velit amet aliquid repudiandae perferendis assumenda quae cupiditate
+          doloremque soluta. Quasi!
+        </h4>
+      </div>
+      <!-- card-end -->
+      <!-- card-start -->
+      <div class="perf-card-container">
+        <img src="./asset/verified.png" class="perf-card-img" alt="" />
+        <h1 class="perf-card-title">Guarenteed Safety</h1>
+        <h4 class="perf-card-subtitle">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur
+          velit amet aliquid repudiandae perferendis assumenda quae cupiditate
+          doloremque soluta. Quasi!
+        </h4>
+      </div>
+      <!-- card-end -->
+    </section>
+    <!-- perform-section-end -->
+    <!-- download-section-start -->
+    <section class="download-section">
+      <div class="download-img-phone-container">
+        <img src="./asset/phone.png" alt="" class="phone" />
+      </div>
+      <div class="download-right-section">
+        <h1 class="download-right-heading">
+          Download <br />
+          mobile App
+        </h1>
+        <p class="download-right-subheading">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo eligendi
+          ipsam, ullam nam sunt expedita est iusto incidunt architecto ducimus!
+        </p>
+        <div class="download-img-container">
+          <img src="./asset/playStore.png" alt="" class="playstore" />
+          <img src="./asset/appStore.png" alt="" class="appstore" />
+        </div>
+      </div>
+    </section>
+    <!-- download-section-end -->
+    <!-- footer-start -->
+    <footer class="footer">
+      <div class="footer-logo-section">
+        <img src="./asset/logo.png" alt="" class="footer-logo" />
+        <h3 class="footer-logo-title">COMMUNITY</h3>
+        <div class="footer-logo-container">
+          <i class="fa-brands fa-facebook fa-beat-fade"></i>
+          <i class="fa-brands fa-twitter fa-beat-fade"></i>
+          <i class="fa-brands fa-telegram fa-beat-fade"></i>
+          <i class="fa-brands fa-youtube fa-beat-fade"></i>
+          <i class="fa-brands fa-instagram fa-beat-fade"></i>
+        </div>
+      </div>
+      <div class="footer-list-container">
+        <ul class="footer-list">
+          <h1 class="footer-list-title">Services</h1>
+          <li class="footer-list-item">P2P</li>
+          <li class="footer-list-item">Wallet</li>
+          <li class="footer-list-item">Withdraw</li>
+          <li class="footer-list-item">Deposite</li>
+        </ul>
+      </div>
+      <div class="footer-variant-container">
+        <div class="footer-list-container">
+          <ul class="footer-list">
+            <h1 class="footer-list-title">Support</h1>
+            <li class="footer-list-item">FAQ's</li>
+            <li class="footer-list-item">Privacy Policy</li>
+            <li class="footer-list-item">Terms and condition</li>
+            <li class="footer-list-item">Coabsolutentact Us</li>
+            <li class="footer-list-item">Create a Ticket</li>
+          </ul>
+        </div>
+        <div class="h-divider"></div>
+        <div class="footer-list-container">
+          <ul class="footer-list">
+            <h1 class="footer-list-title">Contact Us</h1>
+            <li class="footer-list-item">Support@gmail.com</li>
+            <li class="footer-list-item">info@gmail.com</li>
+            <li class="footer-list-item">support@gmail.com</li>
+            <li class="footer-list-item">info@gmail.com</li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+    <div class="v-divider"></div>
+    <div class="reserved-container">
+      <h1 class="reserved-container-title">
+        © 2023 Pay2p. All rights reserved.
+      </h1>
+      <div class="reserved-nav-container">
+        <li class="reserved-nav-item">About Us</li>
+        <li class="reserved-nav-item">Terms</li>
+        <li class="reserved-nav-item">Forms</li>
+        <li class="reserved-nav-item">Distance</li>
+      </div>
+    </div>
+    <!-- footer-end -->
+  </body>
+</html>

@@ -1,0 +1,18 @@
+@import "@fontsource/roboto-condensed";
+@import "@fontsource/bebas-neue";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .my-table-spacing {
+    border-spacing: theme("spacing.3");
+  }
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+  .no-scrollbar {
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+  }
+}
